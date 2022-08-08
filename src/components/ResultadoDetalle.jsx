@@ -28,7 +28,7 @@ const ResultadoDetalle = ({
   };
   return (
     <div
-      className={`w-full h-full bg-black/50 fixed overflow-auto md:overflow-hidden p-5 ${
+      className={`w-full h-full bg-black/50 fixed overflow-auto md:overflow-hidden p-5 m-0 ${
         animarDetalle ? "swing-in-top-fwd" : "roll-out-blurred-left"
       }`}
     >

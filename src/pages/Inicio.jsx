@@ -8,8 +8,8 @@ const Inicio = () => {
   const [resultadoDetalle, setResultadoDetalle] = useState({});
   const [animarDetalle, setAnimarDetalle] = useState(false);
   return (
-    <div className="flex flex-col h-full font-roboto ">
-      <h1 className="text-center p-5 font-bold text-6xl uppercase">
+    <div className="flex flex-col h-screen font-roboto w-full">
+      <h1 className="text-center font-bold text-6xl uppercase mt-5">
         Marvel API
       </h1>
       <Formulario
