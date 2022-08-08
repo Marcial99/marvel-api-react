@@ -17,7 +17,7 @@ const Formulario = ({ resultados, setResultados }) => {
     busquedaApi();
   };
   return (
-    <div>
+    <div className="px-5">
       <Formik
         initialValues={{
           busqueda: "",
